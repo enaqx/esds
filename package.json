@@ -1,0 +1,23 @@
+{
+  
+  "name": "esds",
+  "version": "0.0.1",
+  "description": "Data Structures collection",
+  "main": "index.js",
+
+  "scripts": {
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/enaqx/esds"
+  },
+  "bugs": {
+    "url": "https://github.com/enaqx/esds/issues"
+  },
+  "homepage": "https://github.com/enaqx/esds",
+
+  "author": "Nick Raienko <enaqxx@gmail.com> (http://enaqx.github.io/)",
+  "license": "MIT"
+
+}
