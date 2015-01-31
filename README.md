@@ -1,1 +1,1 @@
-Data Structures in JavaScript
+ECMAScript Data Structures Collection
