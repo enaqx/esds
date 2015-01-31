@@ -1,4 +1,4 @@
-### Data Structure lists
+### Data Structures list
 
 #### Fundamental Built-in Data Types and Objects
  * `Boolean` - logical data type that can have one of two possible values: true or false 
