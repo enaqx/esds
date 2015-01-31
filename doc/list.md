@@ -1,7 +1,9 @@
 ### Data Structure lists
 
 #### Fundamental Built-in Data Types and Objects
- * `Boolean` - boolean value: true or false ([ECMA-262 19.3](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-boolean-objects))
+ * `Boolean` - logical data type that can have one of two possible values: true or false 
+    * [ECMA-262 19.3 Boolean Objects](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-boolean-objects)
+    * [MDN Boolean Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
  * `Number` - numerical values ([ECMA-262 20.1](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-number-objects))
  * `String` - a sequence of characters ([ECMA-262 21.1](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-string-objects))
  * `Symbol` - immutable symbol object ([ECMA-262 19.4](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-symbol-objects))
