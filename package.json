@@ -17,6 +17,8 @@
   "author": "Nick Raienko <enaqxx@gmail.com> (http://enaqx.github.io/)",
   "license": "MIT",
   "devDependencies": {
+    "blanket": "^1.1.6",
+    "jshint": "^2.6.0",
     "mocha": "^2.1.0"
   }
 }
