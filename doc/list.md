@@ -66,26 +66,18 @@
     * [MDN Proxy Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy)
 
 #### Abstract Data Structures (ADT)
- * `Enumeration`
- * `Struct`
- * `Union`
- * `Variant`
- * `Array`
- * `String`
  * `Container`
- * `Map`
- * `List`
- * `Set`
  * `DisjointSet`
+ * `Enumeration`
  * `Multimap`
  * `Multiset`
  * `Stack`
- * `Queue`
+ * `Struct`
  * `Tree`
- * `Graph`
+ * `Union`
+ * `Variant`
 
 #### Arrays
- * `Array`
  * `BitArray`
  * `DynamicArray`
  * `HashedArrayTree`

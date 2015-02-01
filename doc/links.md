@@ -31,3 +31,4 @@ Books:
  * [Handbook of Data Structures and Applications by Dinesh P. Mehta, Sartaj Sahni, 2004, 1392 pages](http://www.amazon.com/Handbook-Structures-Applications-Computer-Information/dp/1584884355/)
  * [Advanced Data Structures by Peter Brass, 2008, 474 pages](http://www.amazon.com/Advanced-Data-Structures-Peter-Brass/dp/0521880378/)
  * [Data Structures and Algorithm Analysis by Clifford A. Shaffer](http://people.cs.vt.edu/~shaffer/Book/)
+ * [Foundations of Multidimensional and Metric Data Structures by Hanan Samet, 2006, 1024 pages](http://www.amazon.com/Foundations-Multidimensional-Structures-Kaufmann-Computer/dp/0123694469/ref=pd_bxgy_b_img_z)
