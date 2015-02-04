@@ -2,10 +2,10 @@
   "name": "esds",
   "version": "0.0.1",
   "description": "ECMAScript Data Structures Collection",
+  "homepage": "https://github.com/enaqx/esds",
+  "author": "Nick Raienko <enaqxx@gmail.com> (http://enaqx.github.io/)",
+  "license": "MIT",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/enaqx/esds"
@@ -13,12 +13,12 @@
   "bugs": {
     "url": "https://github.com/enaqx/esds/issues"
   },
-  "homepage": "https://github.com/enaqx/esds",
-  "author": "Nick Raienko <enaqxx@gmail.com> (http://enaqx.github.io/)",
-  "license": "MIT",
   "devDependencies": {
     "blanket": "^1.1.6",
     "jshint": "^2.6.0",
     "mocha": "^2.1.0"
+  },
+  "scripts": {
+    "test": "mocha"
   }
 }

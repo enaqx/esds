@@ -7,7 +7,7 @@
  * `Number` - numerical value: integer, floating-point
     * [ECMA-262 20.1 Number Objects](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-number-objects)
     * [MDN Number Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
- * `String` - a sequence of characters
+ * `String` - sequence of characters
     * [ECMA-262 21.1 String Objects](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-string-objects)
     * [MDN String Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
  * `Symbol` - immutable symbol object
@@ -22,10 +22,10 @@
  * `Function` - function object
     * [ECMA-262 19.2 Function Objects](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-function-objects))
     * [MDN Function Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function)
- * `Date` - a single moment in time
+ * `Date` - number indicating a particular instant in time to within a millisecond
     * [ECMA-262 20.3 Date Objects](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-date-objects)
     * [MDN Date Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
- * `RegExp` - a regular expression
+ * `RegExp` - regular expression for use in pattern matching with strings
     * [ECMA-262 21.2 RegExp Objects](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-regexp-regular-expression-objects)
     * [MDN RegExp Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
  * `Error` - error object
@@ -55,22 +55,25 @@
  * `GeneratorFunction` - functions which can be exited and later re-entered
     * [ECMA-262 25.2 GeneratorFunction Objects](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-generatorfunction-objects)
     * [MDN GeneratorFunction Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction)
- * `Promise` - a proxy for a value not necessarily known when the promise is created
+ * `Promise` - proxy for a value not necessarily known when the promise is created
     * [ECMA-262 24.4 Promise Objects](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-promise-objects)
     * [MDN Promise Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
- * `Reflect` - a built-in object that provides methods for interceptable JavaScript operations
+ * `Reflect` - object that provides methods for interceptable operations
     * [ECMA-262 26.1 Reflect Object](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-reflect-object)
     * [MDN Reflect Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect)
  * `Proxy` - object to define custom behavior for fundamental operations
     * [ECMA-262 26.2 Proxy Objects](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-proxy-objects)
     * [MDN Proxy Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy)
 
-#### Abstract Data Structures (ADT)
- * `Container`
- * `DisjointSet`
- * `Enumeration`
+#### Abstract Data Types (ADT)
+ * `DisjointSet` - set of elements partitioned into a number of disjoint subsets
+    * [Source](https://github.com/enaqx/esds/blob/master/lib/adt/DisjointSet.js)
+ * `Enumeration` - set of named values
+    * [Wikipedia Enumerated type](http://en.wikipedia.org/wiki/Enumerated_type)
+    * [Source](https://github.com/enaqx/esds/blob/master/lib/adt/Enumeration.js)
  * `Multimap`
  * `Multiset`
+ * `Singleton`
  * `Stack`
  * `Struct`
  * `Tree`
