@@ -3,7 +3,7 @@
  */
 
 var assert = require("assert");
-var esds = require('../index');
+var esds = require('../../index');
 
 var q;
 

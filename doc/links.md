@@ -26,8 +26,13 @@ Courses:
  * [Microsoft An Extensive Examination of Data Structures](http://msdn.microsoft.com/en-us/library/aa287104.aspx)
  * [Scanftree Data Structure course](http://scanftree.com/Data_Structure/)
 
-Books: 
+Math Books: 
+ * [An Investigation of the Laws of Thought on Which are Founded the Mathematical Theories of Logic and Probabilities by George Boole, 1854](http://www.gutenberg.org/files/15114/15114-pdf.pdf)
+ * [A Mathematical Theory of Communication by Claude E. Shannon, 1948](http://cm.bell-labs.com/cm/ms/what/shannonday/shannon1948.pdf)
  * [Concrete Mathematics: A Foundation for Computer Science by Ronald L. Graham, Donald E. Knuth, Oren Patashnik. 2nd edition, 1994, 672 pages](http://www.amazon.com/Concrete-Mathematics-Foundation-Computer-Science/dp/0201558025)
+
+
+Data Structures Books
  * [The Art of Computer Programming by Donald E. Knuth](http://www-cs-faculty.stanford.edu/~uno/taocp.html)
  * [Algorithms and Data Structures by Niklaus Wirth, 1985, 183 pages](http://www.ethoberon.ethz.ch/WirthPubl/AD.pdf)
  * [Data Structures and Network Algorithms by Robert Endre Tarjan, 1987, 140 pages](http://www.amazon.com/Structures-Algorithms-CBMS-NSF-Conference-Mathematics/dp/0898711878)

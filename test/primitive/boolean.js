@@ -91,4 +91,21 @@ describe('Boolean', function() {
       assert.equal(b.valueOf(), false, 'Do not return false');
     });
   });
+
+  describe('Algebraic logic', function() {
+    var a = new Boolean(true);
+    var b = new Boolean(false);
+    it('should return false of (true and false) expression', function() {
+      assert.equal((a && b).valueOf(), false, 'Do not return false');
+    });
+    it('should return true of (true or false) expression', function() {
+      assert.equal((a || b).valueOf(), true, 'Do not return true');
+    });
+    it('should return false of (not true) expression', function() {
+      assert.equal(!a.valueOf(), false, 'Do not return false');
+    });
+    it('should return true of (not false) expression', function() {
+      assert.equal(!b.valueOf(), true, 'Do not return true');
+    });
+  });
 });
