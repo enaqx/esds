@@ -36,6 +36,7 @@ Data Structures Books
  * [The Art of Computer Programming by Donald E. Knuth](http://www-cs-faculty.stanford.edu/~uno/taocp.html)
  * [Algorithms and Data Structures by Niklaus Wirth, 1985, 183 pages](http://www.ethoberon.ethz.ch/WirthPubl/AD.pdf)
  * [Data Structures and Network Algorithms by Robert Endre Tarjan, 1987, 140 pages](http://www.amazon.com/Structures-Algorithms-CBMS-NSF-Conference-Mathematics/dp/0898711878)
+ * [Purely Functional Data Structures by Chris Okasaki, 1996, 150 pages](http://www.cs.cmu.edu/~rwh/theses/okasaki.pdf)
  * [Handbook of Data Structures and Applications by Dinesh P. Mehta, Sartaj Sahni, 2004, 1392 pages](http://www.amazon.com/Handbook-Structures-Applications-Computer-Information/dp/1584884355/)
  * [Advanced Data Structures by Peter Brass, 2008, 474 pages](http://www.amazon.com/Advanced-Data-Structures-Peter-Brass/dp/0521880378/)
  * [Data Structures and Algorithm Analysis by Clifford A. Shaffer](http://people.cs.vt.edu/~shaffer/Book/)
