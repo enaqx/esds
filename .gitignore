@@ -5,5 +5,5 @@ logs
 # Dependency directory
 node_modules
 
-# Temporary library
+# Temporary directory
 tmp
