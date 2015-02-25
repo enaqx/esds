@@ -66,43 +66,19 @@
     * [MDN Proxy Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy)
 
 #### Abstract Data Types (ADT)
- * `Array` - list-like object
-    * [ECMA-262 22.1 Array Objects](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-array-objects)
-    * [MDN Array Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
- * `String` - sequence of characters
-    * [ECMA-262 21.1 String Objects](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-string-objects)
-    * [MDN String Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
  * `Enumeration` - set of named values
     * [Wikipedia Enumerated type](http://en.wikipedia.org/wiki/Enumerated_type)
     * [Source](https://github.com/enaqx/esds/blob/master/lib/adt/Enumeration.js)
- * `Map` - key/value map
-    * [ECMA-262 23.1 Map Objects](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-map-objects)
-    * [MDN Map Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
- * `WeakMap` - key/value pairs in which the keys are objects
-    * [ECMA-262 23.3 WeakMap Objects](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-weakmap-objects)
-    * [MDN WeakMap Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap)
  * `Multimap`
- * `Set` - collection of unique values
-    * [ECMA-262 23.2 Set Objects](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-set-objects)
-    * [MDN Set Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
  * `DisjointSet` - set of elements partitioned into a number of disjoint subsets
     * [Source](https://github.com/enaqx/esds/blob/master/lib/adt/DisjointSet.js)
- * `WeakSet` - collection of unique objects
-    * [ECMA-262 23.4 WeakSet Objects](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-weakset-objects)
-    * [MDN WeakSet Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet)
  * `Multiset`
  * `List`
- * `Queue`
- * `PriorityQueue`
- * `DEQueue`
- * `DEPriorityQueue`
  * `Singleton`
  * `Stack`
- * `Struct`
  * `Tree`
  * `Union`
  * `Variant`
- * `Graph`
 
 #### Arrays
  * `BitArray`

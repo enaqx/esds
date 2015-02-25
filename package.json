@@ -19,7 +19,6 @@
     "mocha": "^2.1.0"
   },
   "scripts": {
-    "testnode": "node --harmony ./node_modules/.bin/mocha test/*",
-    "testio": "iojs ./node_modules/.bin/mocha test/*"
+    "test": "node --harmony ./node_modules/.bin/mocha test/*"
   }
 }

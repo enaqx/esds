@@ -7,7 +7,7 @@ var esds = require('../../index');
 
 var q;
 
-describe('Boolean', function() {
+describe('Queue', function() {
   describe('new esds.Queue()', function() {
     it('should create new Queue', function() {
       q = new esds.Queue();

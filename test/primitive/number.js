@@ -44,6 +44,35 @@ describe('Number', function() {
     });
   });
 
+  describe('Number properties', function() {
+    it(`should have machine EPSILON equal to ` + 
+        `${Number.EPSILON}`, function() {
+      assert.ok(Number.EPSILON);
+    });
+    it(`should have the maximum safe integer MAX_SAFE_INTEGER equals to ` +
+        `${Number.MAX_SAFE_INTEGER}`, function() {
+      assert.ok(Number.MAX_SAFE_INTEGER);
+    });
+    it(`should have the largest positive number MAX_VALUE equals to ` +
+        `${Number.MAX_VALUE}`, function() {
+      assert.ok(Number.MAX_VALUE);
+    });
+    it(`should have the minimum safe integer MIN_SAFE_INTEGER  equals to ` +
+        `${Number.MIN_SAFE_INTEGER}`, function() {
+      assert.ok(Number.MIN_SAFE_INTEGER);
+    });
+    it(`should have the smallest positive number MIN_VALUE equals to ` +
+        `${Number.MIN_VALUE}`, function() {
+      assert.ok(Number.MIN_VALUE);
+    });
+    it('should have positive infinity POSITIVE_INFINITY', function() {
+      assert.equal(Number.POSITIVE_INFINITY, Infinity);
+    });
+    it('should have negative infinity NEGATIVE_INFINITY', function() {
+      assert.equal(Number.NEGATIVE_INFINITY, -1 * Infinity);
+    });
+  });
+
   describe('#toExponential()', function() {
     it('should return number in exponential notation', function() {
       var n = new Number(12.345);
