@@ -44,7 +44,7 @@ describe('Boolean', function() {
       var b = new Boolean(true);
       assert.equal(b, true);
     });
-    it('should set initial value to true"on Infinity', function() {
+    it('should set initial value to true on Infinity', function() {
       var b = new Boolean(Infinity);
       assert.equal(b, true);
     });

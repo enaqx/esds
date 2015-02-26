@@ -9,6 +9,12 @@ Data Structures in JavaScript:
  * [dsjslib - A library implementing several standard data structures and utilities, in JavaScript](https://github.com/monmohan/dsjslib)
  * [buckets - A complete, fully tested and documented data structure library written in pure JavaScript](https://github.com/mauriciosantos/buckets)
 
+Numbers:
+ * [numeraljs - A javascript library for formatting and manipulating numbers](https://github.com/adamwdraper/Numeral-js)
+
+Strings:
+ * [stringjs - Extra JavaScript string methods](https://github.com/jprichardson/string.js)
+
 Data Structures in Java:
  * [Apache Commons Collections](http://commons.apache.org/proper/commons-collections/)
  * [Google Guava](https://github.com/google/guava)
