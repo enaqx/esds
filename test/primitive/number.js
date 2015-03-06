@@ -38,9 +38,9 @@ describe('Number', function() {
       var n1 = new Number('123');
       var n2 = new Number('');
       var n3 = new Number('0x11');
-      assert.equal(n1.valueOf(), 123);
-      assert.equal(n2.valueOf(), 0);
-      assert.equal(n3.valueOf(), 17);
+      assert.equal(n1, 123);
+      assert.equal(n2, 0);
+      assert.equal(n3, 17);
     });
   });
 
@@ -96,8 +96,8 @@ describe('Number', function() {
   });
 
   describe('#isSafeInteger()', function() {
-    it('should determine whether the provided value is a number' +
-        ' that is a safe integer', function() {
+    it('should determine whether the provided value is a number ' +
+        'that is a safe integer', function() {
       assert.equal(Number.isSafeInteger(1), true);
       assert.equal(Number.isSafeInteger(Math.pow(2, 53)), false);
     });

@@ -84,11 +84,11 @@ describe('Boolean', function() {
   describe('#valueOf()', function() {
     it('should return true of true Boolean', function() {
       var b = new Boolean(true);
-      assert.equal(b.valueOf(), true);
+      assert.equal(b, true);
     });
     it('should return false of false Boolean', function() {
       var b = new Boolean(false);
-      assert.equal(b.valueOf(), false);
+      assert.equal(b, false);
     });
   });
 
@@ -96,13 +96,13 @@ describe('Boolean', function() {
     var a = new Boolean(true);
     var b = new Boolean(false);
     it('should return false of (true and false) expression', function() {
-      assert.equal((a && b).valueOf(), false);
+      assert.equal((a && b), false);
     });
     it('should return true of (true or false) expression', function() {
-      assert.equal((a || b).valueOf(), true);
+      assert.equal((a || b), true);
     });
     it('should return false of (not true) expression', function() {
-      assert.equal(!a.valueOf(), false);
+      assert.equal(!a, false);
     });
     it('should return true of (not false) expression', function() {
       assert.equal(!b.valueOf(), true);

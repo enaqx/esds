@@ -19,18 +19,6 @@
  * `Object` - ordinary object
     * [ECMA-262 19.1 Object Objects](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-object-objects)
     * [MDN Object Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
- * `Function` - function object
-    * [ECMA-262 19.2 Function Objects](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-function-objects))
-    * [MDN Function Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function)
- * `Date` - number indicating a particular instant in time to within a millisecond
-    * [ECMA-262 20.3 Date Objects](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-date-objects)
-    * [MDN Date Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
- * `RegExp` - regular expression for use in pattern matching with strings
-    * [ECMA-262 21.2 RegExp Objects](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-regexp-regular-expression-objects)
-    * [MDN RegExp Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
- * `Error` - error object
-    * [ECMA-262 19.5 Error Objects](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-error-objects)
-    * [MDN Error Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error)
  * `Map` - key/value map
     * [ECMA-262 23.1 Map Objects](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-map-objects)
     * [MDN Map Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
@@ -49,21 +37,6 @@
  * `DataView` - low-level interface for reading data from and writing it to an ArrayBuffer
     * [ECMA-262 24.2 DataView Objects](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-dataview-objects)
     * [MDN DataView Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView)
- * `JSON` - JavaScript Object Notation
-    * [ECMA-262 24.3 JSON Object](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-json-object)
-    * [MDN JSON Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
- * `GeneratorFunction` - functions which can be exited and later re-entered
-    * [ECMA-262 25.2 GeneratorFunction Objects](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-generatorfunction-objects)
-    * [MDN GeneratorFunction Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction)
- * `Promise` - proxy for a value not necessarily known when the promise is created
-    * [ECMA-262 24.4 Promise Objects](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-promise-objects)
-    * [MDN Promise Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
- * `Reflect` - object that provides methods for interceptable operations
-    * [ECMA-262 26.1 Reflect Object](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-reflect-object)
-    * [MDN Reflect Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect)
- * `Proxy` - object to define custom behavior for fundamental operations
-    * [ECMA-262 26.2 Proxy Objects](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-proxy-objects)
-    * [MDN Proxy Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy)
 
 #### Abstract Data Types (ADT)
  * `Enumeration` - set of named values
