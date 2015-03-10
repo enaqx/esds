@@ -5,12 +5,11 @@
 var assert = require("assert");
 var esds = require('../../index');
 
-var q;
+var q = new esds.Queue();;
 
 describe('Queue', function() {
   describe('new esds.Queue()', function() {
     it('should create new Queue', function() {
-      q = new esds.Queue();
       q.enqueue('item1');
       q.enqueue('item2');
       q.enqueue('item3');

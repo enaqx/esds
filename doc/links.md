@@ -1,6 +1,5 @@
-Data Structure lists:
+Data Structures lists:
  * [Wikipedia List of data structures](http://en.wikipedia.org/wiki/List_of_data_structures)
- * [Collection of classic computer science paradigms, algorithms, and approaches written in JavaScript](https://github.com/nzakas/computer-science-in-javascript/)
 
 Data Structures in JavaScript:
  * [Draft ECMA-262 6th Edition](http://people.mozilla.org/~jorendorff/es6-draft.html)
@@ -8,6 +7,11 @@ Data Structures in JavaScript:
  * [Immutable.js - Immutable persistent data collections](https://github.com/facebook/immutable-js)
  * [dsjslib - A library implementing several standard data structures and utilities, in JavaScript](https://github.com/monmohan/dsjslib)
  * [buckets - A complete, fully tested and documented data structure library written in pure JavaScript](https://github.com/mauriciosantos/buckets)
+ * [Collection of classic computer science paradigms, algorithms, and approaches written in JavaScript](https://github.com/nzakas/computer-science-in-javascript/)
+
+Extend built-in JavaScript data structures:
+ * [underscore](https://github.com/jashkenas/underscore/)
+ * [lodash](https://github.com/lodash/lodash)
 
 Numbers:
  * [numeraljs - A javascript library for formatting and manipulating numbers](https://github.com/adamwdraper/Numeral-js)
@@ -15,12 +19,25 @@ Numbers:
 Strings:
  * [stringjs - Extra JavaScript string methods](https://github.com/jprichardson/string.js)
 
+Arrays:
+ * [parallel.js - a tiny library for multi-core processing in Javascript](https://github.com/adambom/parallel.js)
+
+Vectors:
+ * [victor - 2D vector class with methods for common vector operations](https://github.com/maxkueng/victor)
+ * [vector.js - 3D vector from lightgl.js library](https://github.com/evanw/lightgl.js/blob/master/src/vector.js)
+
+Matrices:
+ * [matrix.js - 4x4 matrix from lightgl.js library](https://github.com/evanw/lightgl.js/blob/master/src/matrix.js)
+ * [matrix.js - matrix from paper.js library](https://github.com/paperjs/paper.js/blob/master/src/basic/Matrix.js)
+
 Data Structures in Java:
  * [Apache Commons Collections](http://commons.apache.org/proper/commons-collections/)
  * [Google Guava](https://github.com/google/guava)
 
 Data Structures in C++:
  * [Standard Template Library](http://www.cplusplus.com/reference/stl/)
+ * [HAMT](https://github.com/chaelim/HAMT)
+ * [LUT](http://www.mochima.com/articles/LUT/LUT.html)
 
 Data Structures in .NET:
  * [.NET Framework System.Collections Namespace](http://msdn.microsoft.com/en-us/library/system.collections.aspx)
@@ -31,11 +48,6 @@ Courses:
  * [University of Auckland Data Structures and Algorithms course](https://www.cs.auckland.ac.nz/software/AlgAnim/ds_ToC.html)
  * [Microsoft An Extensive Examination of Data Structures](http://msdn.microsoft.com/en-us/library/aa287104.aspx)
  * [Scanftree Data Structure course](http://scanftree.com/Data_Structure/)
-
-Math Books: 
- * [An Investigation of the Laws of Thought on Which are Founded the Mathematical Theories of Logic and Probabilities by George Boole, 1854](http://www.gutenberg.org/files/15114/15114-pdf.pdf)
- * [A Mathematical Theory of Communication by Claude E. Shannon, 1948](http://cm.bell-labs.com/cm/ms/what/shannonday/shannon1948.pdf)
- * [Concrete Mathematics: A Foundation for Computer Science by Ronald L. Graham, Donald E. Knuth, Oren Patashnik. 2nd edition, 1994, 672 pages](http://www.amazon.com/Concrete-Mathematics-Foundation-Computer-Science/dp/0201558025)
 
 
 Data Structures Books

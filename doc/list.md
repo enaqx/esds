@@ -10,9 +10,6 @@
  * `String` - sequence of characters
     * [ECMA-262 21.1 String Objects](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-string-objects)
     * [MDN String Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
- * `Symbol` - immutable symbol object
-    * [ECMA-262 19.4 Symbol Objects](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-symbol-objects)
-    * [MDN Symbol Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol)
  * `Array` - list-like object
     * [ECMA-262 22.1 Array Objects](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-array-objects)
     * [MDN Array Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
@@ -40,37 +37,44 @@
 
 #### Abstract Data Types (ADT)
  * `Enumeration` - set of named values
-    * [Wikipedia Enumerated type](http://en.wikipedia.org/wiki/Enumerated_type)
-    * [Source](https://github.com/enaqx/esds/blob/master/lib/adt/Enumeration.js)
- * `Multimap`
+    * [ESDS Enumeration](https://github.com/enaqx/esds/blob/master/lib/adt/Enumeration.js)
  * `DisjointSet` - set of elements partitioned into a number of disjoint subsets
-    * [Source](https://github.com/enaqx/esds/blob/master/lib/adt/DisjointSet.js)
+    * [ESDS Disjoint Set](https://github.com/enaqx/esds/blob/master/lib/adt/DisjointSet.js)
  * `Multiset`
  * `List`
+ * `Set` - collection of unique values
  * `Singleton`
  * `Stack`
  * `Tree`
  * `Union`
  * `Variant`
+ * `WeakSet` - collection of unique objects
 
 #### Arrays
+ * `Array`
+    * [ESDS Array](https://github.com/enaqx/esds/blob/master/lib/arrays/Array.js)
  * `BitArray`
- * `DynamicArray`
- * `HashedArrayTree`
- * `VList`
- * `SparseArray`
+ * `BitField`
+ * `Matrix`
+ * `SortedArray`
 
-#### Queues
- * `Queue`
- * `PriorityQueue`
- * `DEQueue`
- * `DEPriorityQueue`
+#### Maps
+ * `BidirectionalMap`
+ * `Map`
+ * `Multimap`
+ * `WeakMap` - key/value pairs in which the keys are objects
 
 #### Buffers
  * `Buffer`
  * `ArrayBuffer`
  * `DataView`
  * `CircularBuffer`
+
+#### Queues
+ * `Queue`
+ * `PriorityQueue`
+ * `DEQueue`
+ * `DEPriorityQueue`
 
 #### Lists
  * `List`
@@ -79,6 +83,7 @@
  * `UnrolledLinkedList`
  * `XORLinkedList`
  * `SkipList`
+ * `VList`
 
 #### Binary Trees
  * `BinaryTree`

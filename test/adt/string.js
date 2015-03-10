@@ -3,11 +3,12 @@
  */
 
 var assert = require("assert");
+var esds = require('../../index');
 
-var s = new String('string');
+var s = new esds.String('string');
 
 describe('String', function() {
-  describe('new String()', function() {
+  describe('new esds.String()', function() {
     it('should create new string', function() {
       assert.ok(s);
     });
@@ -22,7 +23,8 @@ describe('String', function() {
   describe('#fromCharCode()', function() {
     it('should return a string created by using the specified ' +
         'sequence of Unicode values', function() {
-      assert.equal(String.fromCharCode(115, 116, 114, 105, 110, 103), 'string');
+      assert.equal(esds.String.fromCharCode(115, 116, 114, 105, 110, 103),
+        'string');
     });
   });
 
@@ -86,8 +88,8 @@ describe('String', function() {
     it('should return a number indicating whether a reference string comes ' +
         'before or after the given string',
         function() {
-      var a = new String('a');
-      var c = new String('c');
+      var a = new esds.String('a');
+      var c = new esds.String('c');
       assert.equal(a.localeCompare('c'), -2);
       assert.equal(c.localeCompare('a'), 2);
       assert.equal(a.localeCompare('a'), 0);
@@ -98,7 +100,7 @@ describe('String', function() {
   describe('#match()', function() {
     it('should retrieve the matches when matching a string against ' +
         'a regular expression', function() {
-      var s = new String('abcdefghijklmnopqrstuvwxyz');
+      var s = new esds.String('abcdefghijklmnopqrstuvwxyz');
       var regexp = /[A-E]/gi;
       assert.equal(s.match(regexp)[0], 'a');
       assert.equal(s.match(regexp)[2], 'c');
@@ -119,8 +121,8 @@ describe('String', function() {
   describe('#replace()', function() {
     it('should return a new string with some or all matches of a pattern ' +
         'replaced by a replacement', function() {
-      var s1 = new String('apples are juicy');
-      var s2 = new String('apples oranges');
+      var s1 = new esds.String('apples are juicy');
+      var s2 = new esds.String('apples oranges');
       var regexp1 = /apples/gi;
       var regexp2 = /(\w+)\s(\w+)/;
       assert.equal(s1.replace(regexp1, 'oranges'), 'oranges are juicy');
@@ -148,7 +150,7 @@ describe('String', function() {
   describe('#split()', function() {
     it('should return an array of strings by separating the string ' +
         'into substrings', function() {
-      var s = new String('apples, oranges, bananas');
+      var s = new esds.String('apples, oranges, bananas');
       assert.equal(s.split(/\s*,\s*/)[0], 'apples');
       assert.equal(s.split(/\s*,\s*/)[1], 'oranges');
       assert.equal(s.split(/\s*,\s*/)[2], 'bananas');
@@ -182,7 +184,7 @@ describe('String', function() {
   describe('#toLowerCase()', function() {
     it('should return the calling string value converted to lowercase',
         function() {
-      var s = new String('STRING');
+      var s = new esds.String('STRING');
       assert.equal(s.toLowerCase(), 'string');
     });
   });
@@ -196,7 +198,7 @@ describe('String', function() {
 
   describe('#trim()', function() {
     it('should remove whitespace from both ends of a string', function() {
-      var s = new String('  string  ');
+      var s = new esds.String('  string  ');
       assert.equal(s.trim(), 'string');
     });
   });
