@@ -19,6 +19,9 @@
     "mocha": "^2.1.0"
   },
   "scripts": {
-    "test": "node --harmony ./node_modules/.bin/mocha test/*"
+    "test": "mocha test/primitive/boolean"
+  },
+  "dependencies": {
+    "babel": "^5.2.6"
   }
 }

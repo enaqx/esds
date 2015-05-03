@@ -2,16 +2,11 @@ Data Structures lists:
  * [Wikipedia List of data structures](http://en.wikipedia.org/wiki/List_of_data_structures)
 
 Data Structures in JavaScript:
- * [Draft ECMA-262 6th Edition](http://people.mozilla.org/~jorendorff/es6-draft.html)
- * [MDN JavaScript Standard built-in objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)
  * [Immutable.js - Immutable persistent data collections](https://github.com/facebook/immutable-js)
  * [dsjslib - A library implementing several standard data structures and utilities, in JavaScript](https://github.com/monmohan/dsjslib)
  * [buckets - A complete, fully tested and documented data structure library written in pure JavaScript](https://github.com/mauriciosantos/buckets)
  * [Collection of classic computer science paradigms, algorithms, and approaches written in JavaScript](https://github.com/nzakas/computer-science-in-javascript/)
 
-Extend built-in JavaScript data structures:
- * [underscore](https://github.com/jashkenas/underscore/)
- * [lodash](https://github.com/lodash/lodash)
 
 Numbers:
  * [numeraljs - A javascript library for formatting and manipulating numbers](https://github.com/adamwdraper/Numeral-js)
@@ -29,6 +24,9 @@ Vectors:
 Matrices:
  * [matrix.js - 4x4 matrix from lightgl.js library](https://github.com/evanw/lightgl.js/blob/master/src/matrix.js)
  * [matrix.js - matrix from paper.js library](https://github.com/paperjs/paper.js/blob/master/src/basic/Matrix.js)
+
+Trees:
+ * [freezer - an immutable tree data structure](https://github.com/arqex/freezer)
 
 Data Structures in Java:
  * [Apache Commons Collections](http://commons.apache.org/proper/commons-collections/)
