@@ -7,3 +7,10 @@ node_modules
 
 # Temporary directory
 tmp
+
+# OSX
+.DS_Store
+
+# Swap files
+*~
+*.swp
